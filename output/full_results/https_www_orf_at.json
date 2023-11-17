@@ -1,0 +1,1408 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://www.orf.at",
+  "uri_refs": [
+    "https://www.orf.at",
+    "https://www.orf.at"
+  ],
+  "uri_dest": "https://www.orf.at/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_redirect": true,
+    "redirects": [
+      "https://www.orf.at/"
+    ],
+    "https_support": true,
+    "https_error": null,
+    "http_error": null
+  },
+  "testSSLError": null,
+  "testSSLErrorOutput": null,
+  "testSSLErrorCode": null,
+  "testSSL": null,
+  "host": "www.orf.at",
+  "script": {
+    "host": "ovh-websiteevidencec-x8pcdot0z5r",
+    "version": {
+      "npm": "2.1.1",
+      "commit": "v0.39.3-0-g552db40"
+    },
+    "config": {
+      "_": [
+        "https://www.orf.at"
+      ],
+      "firstPartyUri": [
+        "https://www.orf.at"
+      ],
+      "dntJs": true,
+      "setCookie": "\"cookies.txt\"",
+      "sleep": 3000,
+      "overwrite": true,
+      "quiet": true,
+      "output": false,
+      "json": true,
+      "headless": true,
+      "max": 0,
+      "screenshots": true,
+      "dnt": false,
+      "yaml": false,
+      "html": false,
+      "usePandoc": false,
+      "pdf": true,
+      "taskDescription": null,
+      "browserOptions": [],
+      "lang": "en",
+      "pageTimeout": 0,
+      "$0": "website-evidence-collector",
+      "url": "https://www.orf.at"
+    },
+    "cmd_args": "https://www.orf.at --first-party-uri=\"https://www.orf.at\" --dnt-js --set-cookie \"cookies.txt\" --sleep=3000 --overwrite --quiet --no-output --json --headless -- --disable-gpu --ignore-certificate-errors --no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage",
+    "environment": {},
+    "node_version": "v20.9.0"
+  },
+  "localStorage": {
+    "https://www.orf.at": {
+      "didomi_token": {
+        "value": "eyJ1c2VyX2lkIjoiMThiZGRmMjQtZDA1OC02YjFhLWI0ZmUtN2RmMjU5ODRmMzVkIiwiY3JlYXRlZCI6IjIwMjMtMTEtMTdUMTU6NDI6MDYuMTgyWiIsInVwZGF0ZWQiOiIyMDIzLTExLTE3VDE1OjQyOjA2LjE4M1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+        "firstPartyStorage": [
+          "www.orf.at",
+          "www.orf.at"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 70293,
+              "fileName": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js",
+              "functionName": "n",
+              "lineNumber": 2,
+              "source": "    at n (https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js:2:70293)"
+            },
+            {
+              "columnNumber": 69705,
+              "fileName": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js",
+              "functionName": "h",
+              "lineNumber": 2,
+              "source": "    at h (https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js:2:69705)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2023-11-17T15:42:06.186Z",
+          "location": "https://www.orf.at/"
+        }
+      },
+      "enableWebstats-2023-09-01": {
+        "value": false,
+        "firstPartyStorage": [
+          "www.orf.at",
+          "www.orf.at"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 514,
+              "fileName": "https://orf.at/mojo.compressed/1_4_1/news//news/main.js?v=2023111410-533",
+              "lineNumber": 673,
+              "source": "    at https://orf.at/mojo.compressed/1_4_1/news//news/main.js?v=2023111410-533:673:514"
+            },
+            {
+              "columnNumber": 116,
+              "fileName": "https://orf.at/mojo.compressed/1_4_1/news//news/main.js?v=2023111410-533",
+              "lineNumber": 675,
+              "source": "    at https://orf.at/mojo.compressed/1_4_1/news//news/main.js?v=2023111410-533:675:116"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2023-11-17T15:42:05.591Z",
+          "location": "https://www.orf.at/"
+        }
+      }
+    }
+  },
+  "cookies": [
+    {
+      "name": "UserID1",
+      "value": "7302456838676155151",
+      "domain": "adfarm1.adition.com",
+      "path": "/",
+      "expires": 1708011725.514864,
+      "size": 26,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443,
+      "expiresUTC": "2024-02-15T15:42:05.514Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://ad13.adfarm1.adition.com/i?raw=1&ts=723983932",
+            "source": "set in Set-Cookie HTTP response header for https://ad13.adfarm1.adition.com/i?raw=1&ts=723983932"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2023-11-17T15:42:06.494Z",
+        "location": "https://www.orf.at/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "i00",
+      "value": "0001aba51b77ffb7c655789cd0001%3B655789cd%3B671df0b8",
+      "domain": "iocnt.net",
+      "path": "/",
+      "expires": 1730015416.981592,
+      "size": 54,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443,
+      "expiresUTC": "2024-10-27T07:50:16.981Z",
+      "expiresDays": 344.67,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://at.iocnt.net/tx.io?cn=at&st=at_w_atorf&sv=ke&ps=lin&sc=yes&cp=RedCont%2FNachrichten%2FNachrichtenueberblick%2Fv1news%2Ffront&pt=CP&rf=&r2=&ur=www.orf.at&xy=800x600x24&lo=BE%2FBrussels%20Capital&cb=0001&i2=00010894e52464abb655789cd&ep=1724413178&vr=423&id=svmcgh&i3=00010894e52464abb655789cd%3A1726846925821%3A1700235725821%3A.orf.at%3A1%3Aat_w_atorf%3ARedCont%2FNachrichten%2FNachrichtenueberblick%2Fv1news%2Ffront%3Anoevent%3A1700235725821&n1=1&dntt=1&lt=1700235725824&ev=&cs=4embpm&mo=1",
+            "source": "set in Set-Cookie HTTP response header for https://at.iocnt.net/tx.io?cn=at&st=at_w_atorf&sv=ke&ps=lin&sc=yes&cp=RedCont%2FNachrichten%2FNachrichtenueberblick%2Fv1news%2Ffront&pt=CP&rf=&r2=&ur=www.orf.at&xy=800x600x24&lo=BE%2FBrussels%20Capital&cb=0001&i2=00010894e52464abb655789cd&ep=1724413178&vr=423&id=svmcgh&i3=00010894e52464abb655789cd%3A1726846925821%3A1700235725821%3A.orf.at%3A1%3Aat_w_atorf%3ARedCont%2FNachrichten%2FNachrichtenueberblick%2Fv1news%2Ffront%3Anoevent%3A1700235725821&n1=1&dntt=1&lt=1700235725824&ev=&cs=4embpm&mo=1"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2023-11-17T15:42:05.970Z",
+        "location": "https://www.orf.at/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "didomi_token",
+      "value": "eyJ1c2VyX2lkIjoiMThiZGRmMjQtZDA1OC02YjFhLWI0ZmUtN2RmMjU5ODRmMzVkIiwiY3JlYXRlZCI6IjIwMjMtMTEtMTdUMTU6NDI6MDYuMTgyWiIsInVwZGF0ZWQiOiIyMDIzLTExLTE3VDE1OjQyOjA2LjE4M1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+      "domain": "orf.at",
+      "path": "/",
+      "expires": 1731858126,
+      "size": 200,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443,
+      "expiresUTC": "2024-11-17T15:42:06.000Z",
+      "expiresDays": 366,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 67605,
+            "fileName": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js",
+            "functionName": "a",
+            "lineNumber": 2,
+            "source": "    at a (https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js:2:67605)"
+          },
+          {
+            "columnNumber": 69640,
+            "fileName": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js",
+            "functionName": "h",
+            "lineNumber": 2,
+            "source": "    at h (https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js:2:69640)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2023-11-17T15:42:06.186Z",
+        "location": "https://www.orf.at/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "ioam2018",
+      "value": "00010894e52464abb655789cd:1726846925821:1700235725821:.orf.at:2:at_w_atorf:RedCont/Nachrichten/Nachrichtenueberblick/v1news/front:noevent:1700235725821:ljdgo1",
+      "domain": "orf.at",
+      "path": "/",
+      "expires": 1726846925,
+      "size": 166,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443,
+      "expiresUTC": "2024-09-20T15:42:05.000Z",
+      "expiresDays": 308,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 25,
+            "fileName": "https://script-at.iocnt.net/iam.js",
+            "functionName": "setFirstPartyCookie",
+            "lineNumber": 1105,
+            "source": "    at setFirstPartyCookie (https://script-at.iocnt.net/iam.js:1105:25)"
+          },
+          {
+            "columnNumber": 23,
+            "fileName": "https://script-at.iocnt.net/iam.js",
+            "functionName": "buildResult",
+            "lineNumber": 702,
+            "source": "    at buildResult (https://script-at.iocnt.net/iam.js:702:23)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2023-11-17T15:42:05.823Z",
+        "location": "https://www.orf.at/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_autuserid2",
+      "value": "7302456838676155151",
+      "domain": "www.orf.at",
+      "path": "/",
+      "expires": 1708011726,
+      "size": 30,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Strict",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443,
+      "expiresUTC": "2024-02-15T15:42:06.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 235,
+            "fileName": "https://imagesrv.adition.com/js/aut.js",
+            "functionName": "Function.c [as set]",
+            "lineNumber": 12,
+            "source": "    at Function.c [as set] (https://imagesrv.adition.com/js/aut.js:12:235)"
+          },
+          {
+            "columnNumber": 48,
+            "fileName": "https://imagesrv.adition.com/js/aut.js",
+            "functionName": "Object.I",
+            "lineNumber": 14,
+            "source": "    at Object.I (https://imagesrv.adition.com/js/aut.js:14:48)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2023-11-17T15:42:06.495Z",
+        "location": "https://www.orf.at/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "beacons": [
+    {
+      "filter": "||adnz.co^$third-party",
+      "listName": "easyprivacy.txt",
+      "query": {
+        "tenantId": 1655,
+        "url": "https://www.orf.at/"
+      },
+      "url": "https://api.adnz.co/api/ws-contextual/page-keywords?tenantId=1655&url=https%3A%2F%2Fwww.orf.at%2F",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with easyprivacy.txt filter ||adnz.co^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:06.376Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "||adnz.co^$third-party",
+      "listName": "easyprivacy.txt",
+      "query": {
+        "events": "W3sidHlwZSI6IlBBR0VfSU1QUkVTU0lPTiIsImJvZHkiOnt9LCJldmVudElkIjo0MDU2NjQ0NjA1MDI4OTksInBhZ2VJbXByZXNzaW9uSWQiOjQzNTkwODQ5NDc4MjgwNTMsInVybCI6Imh0dHBzOi8vb3JmLmF0LyJ9XQ==",
+        "tenantId": 1655,
+        "visitorId": 9418997454762312
+      },
+      "url": "https://api.adnz.co/api/ws-events-sink/batch?visitorId=9418997454762313&tenantId=1655&events=W3sidHlwZSI6IlBBR0VfSU1QUkVTU0lPTiIsImJvZHkiOnt9LCJldmVudElkIjo0MDU2NjQ0NjA1MDI4OTksInBhZ2VJbXByZXNzaW9uSWQiOjQzNTkwODQ5NDc4MjgwNTMsInVybCI6Imh0dHBzOi8vb3JmLmF0LyJ9XQ%3D%3D",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with easyprivacy.txt filter ||adnz.co^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:06.543Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "||iocnt.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "query": {
+        "cb": "0001",
+        "cn": "at",
+        "cp": "RedCont/Nachrichten/Nachrichtenueberblick/v1news/front",
+        "cs": "4embpm",
+        "dntt": 1,
+        "ep": 1724413178,
+        "ev": "",
+        "i2": "00010894e52464abb655789cd",
+        "i3": "00010894e52464abb655789cd:1726846925821:1700235725821:.orf.at:1:at_w_atorf:RedCont/Nachrichten/Nachrichtenueberblick/v1news/front:noevent:1700235725821",
+        "id": "svmcgh",
+        "lo": "BE/Brussels Capital",
+        "lt": 1700235725824,
+        "mo": 1,
+        "n1": 1,
+        "ps": "lin",
+        "pt": "CP",
+        "r2": "",
+        "rf": "",
+        "sc": "yes",
+        "sr": 71,
+        "st": "at_w_atorf",
+        "sv": "ke",
+        "ur": "www.orf.at",
+        "vr": 423,
+        "xy": "800x600x24"
+      },
+      "url": "https://at.iocnt.net/tx.io?cn=at&st=at_w_atorf&sv=ke&ps=lin&sc=yes&cp=RedCont%2FNachrichten%2FNachrichtenueberblick%2Fv1news%2Ffront&pt=CP&rf=&r2=&ur=www.orf.at&xy=800x600x24&lo=BE%2FBrussels%20Capital&cb=0001&i2=00010894e52464abb655789cd&ep=1724413178&vr=423&id=svmcgh&i3=00010894e52464abb655789cd%3A1726846925821%3A1700235725821%3A.orf.at%3A1%3Aat_w_atorf%3ARedCont%2FNachrichten%2FNachrichtenueberblick%2Fv1news%2Ffront%3Anoevent%3A1700235725821&n1=1&dntt=1&lt=1700235725824&ev=&cs=4embpm&mo=1&sr=71",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with easyprivacy.txt filter ||iocnt.net^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:05.971Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "filter": "||adnz.co^$third-party",
+      "listName": "easyprivacy.txt",
+      "query": null,
+      "url": "https://cdn.adnz.co/convey2-scripts/contextual.js",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with easyprivacy.txt filter ||adnz.co^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:05.981Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "/base/es6/bundle.js",
+      "listName": "easyprivacy.txt",
+      "query": null,
+      "url": "https://data-d6e13c60e8.orf.at/iomb/latest/sensor/manager/base/es6/bundle.js",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with easyprivacy.txt filter /base/es6/bundle.js"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:06.516Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "/base/es6/bundle.js",
+      "listName": "easyprivacy.txt",
+      "query": null,
+      "url": "https://data-d6e13c60e8.orf.at/iomm/latest/manager/base/es6/bundle.js",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with easyprivacy.txt filter /base/es6/bundle.js"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:05.359Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "||iocnt.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "query": null,
+      "url": "https://script-at.iocnt.net/iam.js",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with easyprivacy.txt filter ||iocnt.net^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:05.620Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "||privacy-center.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "query": {
+        "target": "www.orf.at"
+      },
+      "url": "https://sdk.privacy-center.org/ec37cbb0-e91d-42b8-abef-51639d3499c3/loader.js?target=www.orf.at",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with fanboy-annoyance.txt filter ||privacy-center.org^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:05.981Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "||privacy-center.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "query": null,
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with fanboy-annoyance.txt filter ||privacy-center.org^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:06.012Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "||privacy-center.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "query": null,
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/src_sdk_regulations_gdpr_tcf_v2_2_purposes_index_js.865237b129f44954933b52435f414f44ebe0b583.js",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with fanboy-annoyance.txt filter ||privacy-center.org^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:06.113Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "||privacy-center.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "query": null,
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/src_sdk_regulations_gdpr_tcf_v2_2_vendors_iab-core_js.865237b129f44954933b52435f414f44ebe0b583.js",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with fanboy-annoyance.txt filter ||privacy-center.org^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:06.111Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "||privacy-center.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "query": null,
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/tcf-service-2-2.865237b129f44954933b52435f414f44ebe0b583.js",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with fanboy-annoyance.txt filter ||privacy-center.org^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:06.113Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "filter": "||privacy-center.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "query": null,
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/ui-gdpr-tcf-2-2-de-web2-2.865237b129f44954933b52435f414f44ebe0b583.js",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.orf.at/",
+            "source": "requested from https://www.orf.at/ and matched with fanboy-annoyance.txt filter ||privacy-center.org^$third-party"
+          }
+        ],
+        "timestamp": "2023-11-17T15:42:06.192Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://www.orf.at/",
+        "inner_text": "Zum Inhalt [AK+1]",
+        "inner_html": "Zum Inhalt [AK+1]"
+      },
+      {
+        "href": "https://www.orf.at/",
+        "inner_text": "Zur ORF.at-Navigation [AK+3]",
+        "inner_html": "Zur ORF.at-Navigation [AK+3]"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://burgenland.orf.at/stories/3232888/",
+        "inner_text": "burgenland.ORF.at",
+        "inner_html": "burgenland.ORF.at"
+      },
+      {
+        "href": "https://debatte.orf.at/",
+        "inner_text": "Debatte",
+        "inner_html": "Debatte"
+      },
+      {
+        "href": "https://debatte.orf.at/",
+        "inner_text": "Debatte",
+        "inner_html": "Debatte"
+      },
+      {
+        "href": "https://debatte.orf.at/",
+        "inner_text": "Debatte",
+        "inner_html": "Debatte"
+      },
+      {
+        "href": "https://der.orf.at/kontakt",
+        "inner_text": "Kontakt",
+        "inner_html": "Kontakt"
+      },
+      {
+        "href": "https://kaernten.orf.at/stories/3232883/",
+        "inner_text": "kaernten.ORF.at",
+        "inner_html": "kaernten.ORF.at"
+      },
+      {
+        "href": "https://kaernten.orf.at/stories/3232916/",
+        "inner_text": "kaernten.ORF.at",
+        "inner_html": "kaernten.ORF.at"
+      },
+      {
+        "href": "https://lichtinsdunkel.orf.at/",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://assets.orf.at/flags/80.svg?_m=1606900954868\" alt=\"Licht ins Dunkel\">"
+      },
+      {
+        "href": "https://lichtinsdunkel.orf.at/",
+        "inner_text": "Alle Informationen zu Licht ins Dunkel",
+        "inner_html": "<img src=\"https://assets.orf.at/flags/79.svg?_m=1606901317985\" alt=\"Licht ins Dunkel\" class=\"flag-ticker-mobile-image\"><h3 class=\"flag-ticker-mobile-headline\">Alle Informationen zu Licht ins Dunkel</h3>"
+      },
+      {
+        "href": "https://noe.orf.at/stories/3232904/",
+        "inner_text": "noe.ORF.at",
+        "inner_html": "noe.ORF.at"
+      },
+      {
+        "href": "https://oesterreich.orf.at/",
+        "inner_text": "Österreich",
+        "inner_html": "Österreich"
+      },
+      {
+        "href": "https://oesterreich.orf.at/",
+        "inner_text": "Österreich",
+        "inner_html": "Österreich"
+      },
+      {
+        "href": "https://oesterreich.orf.at/m/",
+        "inner_text": "Österreich",
+        "inner_html": "Österreich"
+      },
+      {
+        "href": "https://oesterreich.orf.at/stories/3232855/",
+        "inner_text": "ÖSTERREICH\nGastro und Hotellerie Hauptpreistreiber",
+        "inner_html": "<div class=\"oon-grid-image\">\n   <picture>\n         <source media=\"(max-width: 589px)\" srcset=\"https://assets.orf.at/mims/2023/46/89/crops/w=295,h=171,q=70,r=1/2011604_master_758189_gastro_hotelerie_preistreiber_gy.jpg?s=d9d8868bcdad150a1b5c112e62f72c09e0e968e8 1x, https://assets.orf.at/mims/2023/46/89/crops/w=295,h=171,q=60,r=2/2011604_master_758189_gastro_hotelerie_preistreiber_gy.jpg?s=917bafb18f45ce9306bab7c59d6174e8ea65d7bd 2x, https://assets.orf.at/mims/2023/46/89/crops/w=295,h=171,q=80,r=3/2011604_master_758189_gastro_hotelerie_preistreiber_gy.jpg?s=628fa9f75b824fa7b70b3296045fc7e86a210e85 3x\" width=\"295\" height=\"171\">\n\n\n         <source media=\"(max-width: 1019px)\" srcset=\"https://assets.orf.at/mims/2023/46/89/crops/w=328,h=185,q=70,r=1/2011604_master_758189_gastro_hotelerie_preistreiber_gy.jpg?s=20cf48da2df5df92a808b514dae8d7f62458fbe4 1x, https://assets.orf.at/mims/2023/46/89/crops/w=328,h=185,q=60,r=2/2011604_master_758189_gastro_hotelerie_preistreiber_gy.jpg?s=59eec6ca68dbd8f46e51f196e01ee4b52e97161f 2x, https://assets.orf.at/mims/2023/46/89/crops/w=328,h=185,q=80,r=3/2011604_master_758189_gastro_hotelerie_preistreiber_gy.jpg?s=45b0326244b48ade9fdbdc5e5cbc804b1723c5f0 3x\" width=\"328\" height=\"185\">\n\n\n         <source media=\"(min-width: 1020px)\" srcset=\"https://assets.orf.at/mims/2023/46/89/crops/w=171,q=90,r=1/2011605_1k_758189_gastro_hotelerie_preistreiber_gy.jpg?s=91532dcae2fafab6ea80660427450dcfc1107d1d 1x, https://assets.orf.at/mims/2023/46/89/crops/w=171,q=80,r=2/2011605_1k_758189_gastro_hotelerie_preistreiber_gy.jpg?s=df82451b6d3547fb060e0185770fcc89af19752d 2x, https://assets.orf.at/mims/2023/46/89/crops/w=171,q=80,r=3/2011605_1k_758189_gastro_hotelerie_preistreiber_gy.jpg?s=3b7435735f33b30ff9acd73dc188548dd9bfa72c 3x\" width=\"171\" height=\"\">\n\n\n      <img src=\"https://assets.orf.at/mims/2023/46/89/crops/w=171,q=90,r=2/2011605_1k_758189_gastro_hotelerie_preistreiber_gy.jpg?s=b888db1068531aeed62782c74a045e451d5cf192\" alt=\"Ein Kellner schenkt in einem Restaurant Wein in ein Glas\" title=\"© Getty Images/Oscar Wong\" width=\"171\" height=\"\">\n\n\n\n      \n      \n   </picture>\n</div>\n\n\n         <div class=\"oon-grid-texts-container\">\n            \n\n\n\n<div class=\"oon-grid-texts-flag oon-grid-texts-flag-position-left\">\n   <span> Österreich </span>\n</div>\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-6 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      \n      \n      Gastro und Hotellerie Hauptpreistreiber\n   </h1>\n</div>\n\n\n         </div>\n         <div class=\"oon-grid-texts-container-mobile\">\n            \n\n\n\n<div class=\"oon-grid-texts-flag oon-grid-texts-flag-position-left\">\n   <span> Österreich </span>\n</div>\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-7 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      \n      \n      Gastro und Hotellerie sind Hauptpreistreiber\n   </h1>\n</div>\n\n\n         </div>"
+      },
+      {
+        "href": "https://ooe.orf.at/stories/3232953/",
+        "inner_text": "ooe.ORF.at",
+        "inner_html": "ooe.ORF.at"
+      },
+      {
+        "href": "https://orf.at/",
+        "inner_text": "News",
+        "inner_html": "News"
+      },
+      {
+        "href": "https://orf.at/",
+        "inner_text": "news",
+        "inner_html": "news"
+      },
+      {
+        "href": "https://orf.at/",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://orf.at/mojo/1_4_1/storyserver//news/news/images/target_news-universal.svg\" width=\"103\" height=\"39\" alt=\"ORF.at\" title=\"\" class=\"orfon-target-logo\">"
+      },
+      {
+        "href": "https://orf.at/",
+        "inner_text": "News",
+        "inner_html": "News"
+      },
+      {
+        "href": "https://orf.at/",
+        "inner_text": "Zurück zur Startseite",
+        "inner_html": "Zurück zur Startseite"
+      },
+      {
+        "href": "https://orf.at/",
+        "inner_text": "News",
+        "inner_html": "News"
+      },
+      {
+        "href": "https://orf.at/newsroom/",
+        "inner_text": "Alle Videos im ORF.at-Newsroom",
+        "inner_html": "<span data-v-f2902c14=\"\" class=\"videolane-tvthek-text\">Alle Videos im ORF.at-Newsroom</span><span data-v-f2902c14=\"\" class=\"videolane-tvthek-text-mobile\">Mehr im ORF.at-Newsroom</span>"
+      },
+      {
+        "href": "https://orf.at/newsroom/",
+        "inner_text": "Mehr Videos im ORF.at-Newsroom",
+        "inner_html": "Mehr Videos im ORF.at-Newsroom"
+      },
+      {
+        "href": "https://orf.at/newsroom/",
+        "inner_text": "Mehr Videos im ORF.at-Newsroom",
+        "inner_html": "Mehr Videos im ORF.at-Newsroom"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509847",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509848",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509849",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509850",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509862",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509863",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509868",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509874",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509875",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509877",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509900",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509901",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509902",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509903",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509904",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509905",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509906",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509928",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15509974",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/newsroom/segment/15510006",
+        "inner_text": "",
+        "inner_html": "<div data-v-eecd5a58=\"\" class=\"videolane-play-button-image\"></div>"
+      },
+      {
+        "href": "https://orf.at/push/",
+        "inner_text": "",
+        "inner_html": "<svg data-v-4a79f06e=\"\" data-v-d0a3afe6=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"35\" viewBox=\"-3 -3 35 35\" aria-hidden=\"true\" class=\"settings-icon\"><g data-v-4a79f06e=\"\" transform=\"translate(-152.003 -100)\"><path data-v-4a79f06e=\"\" d=\"M3,0H27c1.657,0,3,1.752,3,3.913V26.087C30,28.248,28.656,30,27,30H3c-1.657,0-3-1.752-3-3.913V3.913C0,1.752,1.343,0,3,0Z\" transform=\"translate(152.003 100)\" class=\"a\"></path><g data-v-4a79f06e=\"\" transform=\"translate(102.894 53.5)\"><g data-v-4a79f06e=\"\" transform=\"translate(58 54.5)\"><g data-v-4a79f06e=\"\" transform=\"translate(0 0)\"><path data-v-4a79f06e=\"\" d=\"M30.963,24.172a4.583,4.583,0,0,0-3.436,4.437v3.054a.51.51,0,0,1-.509.51,1.018,1.018,0,0,0,0,2.036H37.2a1.018,1.018,0,0,0,0-2.036.508.508,0,0,1-.509-.51V28.609a4.583,4.583,0,0,0-3.436-4.437v-.526a1.145,1.145,0,0,0-2.291,0Zm-.637,10.546H33.89a1.782,1.782,0,1,1-3.564,0Z\" transform=\"translate(-26 -22.5)\" class=\"b\"></path></g></g></g></g></svg>"
+      },
+      {
+        "href": "https://orf.at/push/",
+        "inner_text": "Benachrichtigungen einrichten",
+        "inner_html": "Benachrichtigungen einrichten"
+      },
+      {
+        "href": "https://orf.at/stories/3339982/",
+        "inner_text": "Gaza: Ungleiches Ringen um die Deutungsmacht",
+        "inner_html": "<div class=\"oon-grid-image\">\n   <picture>\n         <source media=\"(max-width: 589px)\" srcset=\"https://assets.orf.at/mims/2023/46/12/crops/w=295,h=171,q=70,r=1/2010047_master_757512_israel_hamas_informationspolitik_afp.jpg?s=3285b263a45478a8a2128e401d791bda2c134bc1 1x, https://assets.orf.at/mims/2023/46/12/crops/w=295,h=171,q=60,r=2/2010047_master_757512_israel_hamas_informationspolitik_afp.jpg?s=0dce41037a6e22d59021eb562820bf5f45f207e7 2x, https://assets.orf.at/mims/2023/46/12/crops/w=295,h=171,q=80,r=3/2010047_master_757512_israel_hamas_informationspolitik_afp.jpg?s=50632400d49ef5066f7ffa4794d2999a00c787ec 3x\" width=\"295\" height=\"171\">\n\n\n         <source media=\"(max-width: 1019px)\" srcset=\"https://assets.orf.at/mims/2023/46/12/crops/w=500,h=280,q=70,r=1/2010047_master_757512_israel_hamas_informationspolitik_afp.jpg?s=8cc4ac84d67bc727d104f59d46da308c018b4dd1 1x, https://assets.orf.at/mims/2023/46/12/crops/w=500,h=280,q=60,r=2/2010047_master_757512_israel_hamas_informationspolitik_afp.jpg?s=e745756d464c85fa4058f6056cb9a443818717c2 2x, https://assets.orf.at/mims/2023/46/12/crops/w=500,h=280,q=80,r=3/2010047_master_757512_israel_hamas_informationspolitik_afp.jpg?s=4242cc24774e9c06e1a9da9b37405972c0d95dc6 3x\" width=\"500\" height=\"280\">\n\n\n         <source media=\"(min-width: 1020px)\" srcset=\"https://assets.orf.at/mims/2023/46/12/crops/w=171,q=90,r=1/2010055_1k_757512_israel_hamas_informationspolitik_afp.jpg?s=016cf584e34ccacd1b120df444d3194c953fbfb4 1x, https://assets.orf.at/mims/2023/46/12/crops/w=171,q=80,r=2/2010055_1k_757512_israel_hamas_informationspolitik_afp.jpg?s=69aa5b20da4e60c962f58d8669e5375c60897e15 2x, https://assets.orf.at/mims/2023/46/12/crops/w=171,q=80,r=3/2010055_1k_757512_israel_hamas_informationspolitik_afp.jpg?s=327468e27b8fe51e1c2d17fad79f35a313d7cb0e 3x\" width=\"171\" height=\"\">\n\n\n      <img src=\"https://assets.orf.at/mims/2023/46/12/crops/w=171,q=90,r=2/2010055_1k_757512_israel_hamas_informationspolitik_afp.jpg?s=5084d2395d256da62756ee64ce42cfe536caeb75\" alt=\"Journalist mit Kamera blickt von Sderot Richtung Gaza\" title=\"© APA/AFP/Jack Guez\" width=\"171\" height=\"\">\n\n\n\n      \n      \n   </picture>\n</div>\n\n\n         <div class=\"oon-grid-texts-container\">\n            \n\n\n\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-5 oon-grid-texts-letter-spacing-8\">\n   <h1>\n      \n      \n      Gaza: Ungleiches Ringen um die Deutungsmacht\n   </h1>\n</div>\n\n\n         </div>\n         <div class=\"oon-grid-texts-container-mobile\">\n            \n\n\n\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-5 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      \n      \n      Gaza: Ungleiche Mittel im Ringen um Deutungsmacht\n   </h1>\n</div>\n\n\n         </div>"
+      },
+      {
+        "href": "https://orf.at/stories/3340006/",
+        "inner_text": "Lesen Sie mehr …",
+        "inner_html": "Lesen Sie mehr …"
+      },
+      {
+        "href": "https://orf.at/stories/3340082/",
+        "inner_text": "Kurz-Prozess:\nZeuge verteidigt Sideletter-Absprachen",
+        "inner_html": "<div class=\"oon-grid-image\">\n   <picture>\n         <source media=\"(max-width: 589px)\" srcset=\"https://assets.orf.at/mims/2023/46/52/crops/w=590,h=295,q=70,r=1/2010898_master_757852_kurz_prozess_a09_row-2.jpg?s=52905f69f1303ddd7b54167cd8bec1e40998d657 1x, https://assets.orf.at/mims/2023/46/52/crops/w=590,h=295,q=60,r=2/2010898_master_757852_kurz_prozess_a09_row-2.jpg?s=354f22cecea7126971348878c337cf9442ff221c 2x, https://assets.orf.at/mims/2023/46/52/crops/w=590,h=295,q=80,r=3/2010898_master_757852_kurz_prozess_a09_row-2.jpg?s=7fa4face23e009534bba5911f3cc78041b5b2b13 3x\" width=\"590\" height=\"295\">\n\n\n         <source media=\"(max-width: 1019px)\" srcset=\"https://assets.orf.at/mims/2023/46/52/crops/w=500,h=580,q=70,r=1/2010898_master_757852_kurz_prozess_a09_row-2.jpg?s=24a5b32c0505dc316a57b846d91e62a4988a72c0 1x, https://assets.orf.at/mims/2023/46/52/crops/w=500,h=580,q=60,r=2/2010898_master_757852_kurz_prozess_a09_row-2.jpg?s=cfebebbb00f78de6faef6cce97f3f44d98ae92a1 2x, https://assets.orf.at/mims/2023/46/52/crops/w=500,h=580,q=80,r=3/2010898_master_757852_kurz_prozess_a09_row-2.jpg?s=3afa4c8f4f358c854b8d7c3ffe02c0c5b8e63599 3x\" width=\"500\" height=\"580\">\n\n\n         <source media=\"(min-width: 1020px)\" srcset=\"https://assets.orf.at/mims/2023/46/52/crops/w=347,q=90,r=1/2010906_2q_757852_kurz_prozess_a09_row-2.jpg?s=1cf1b2dab0716f41cbc300bcab8f79847042f1bc 1x, https://assets.orf.at/mims/2023/46/52/crops/w=347,q=80,r=2/2010906_2q_757852_kurz_prozess_a09_row-2.jpg?s=8c25680fbd4f86255f3e385bda12f5ae91e2d2e5 2x, https://assets.orf.at/mims/2023/46/52/crops/w=347,q=80,r=3/2010906_2q_757852_kurz_prozess_a09_row-2.jpg?s=165a6a805a36729c71d58ad3b64f631742dc732e 3x\" width=\"347\" height=\"\">\n\n\n      <img src=\"https://assets.orf.at/mims/2023/46/52/crops/w=347,q=90,r=2/2010906_2q_757852_kurz_prozess_a09_row-2.jpg?s=11cdb6bac28f181891cf61dc96e510e9bfcdcaac\" alt=\"Ex-ÖBB-Finanzvorstand Arnold Schiefer\n\" title=\"© ORF/Roland Winkler\" width=\"347\" height=\"\">\n\n\n\n      \n      \n   </picture>\n</div>\n\n\n         <div class=\"oon-grid-texts-container\">\n            \n\n\n\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-5 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      Kurz-Prozess:\n      <br>\n      Zeuge verteidigt Sideletter-Absprachen\n   </h1>\n</div>\n\n\n         </div>\n         <div class=\"oon-grid-texts-container-mobile\">\n            \n\n\n\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-5 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      \n      \n      Kurz-Prozess: Zeuge verteidigt Sideletter-Absprachen\n   </h1>\n</div>\n\n\n         </div>"
+      },
+      {
+        "href": "https://orf.at/stories/3340086/",
+        "inner_text": "Amazon verkauft in USA künftig Autos",
+        "inner_html": "Amazon verkauft in USA künftig Autos"
+      },
+      {
+        "href": "https://orf.at/stories/3340088/",
+        "inner_text": "Expertin rät zu CoV-Test bei Symptomen",
+        "inner_html": "Expertin rät zu CoV-Test bei Symptomen"
+      },
+      {
+        "href": "https://orf.at/stories/3340090/",
+        "inner_text": "Neue Art von Magnetismus nachgewiesen",
+        "inner_html": "Neue Art von Magnetismus nachgewiesen"
+      },
+      {
+        "href": "https://orf.at/stories/3340095/",
+        "inner_text": "Deleila Piasko ist die neue Buhlschaft",
+        "inner_html": "Deleila Piasko ist die neue Buhlschaft"
+      },
+      {
+        "href": "https://orf.at/stories/3340107/",
+        "inner_text": "Hilfslieferungen gestoppt:\nUNO warnt vor Hungersnot in Gaza",
+        "inner_html": "<div class=\"oon-grid-image\">\n   <picture>\n         <source media=\"(max-width: 589px)\" srcset=\"https://assets.orf.at/mims/2023/46/86/crops/w=590,h=393,q=70,r=1/2011186_master_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=e9aff89f452c15f592aa5d5e992d8d4d05a1368b 1x, https://assets.orf.at/mims/2023/46/86/crops/w=590,h=393,q=60,r=2/2011186_master_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=a81f381dc370351abca3677cde5a5db94bc59ddd 2x, https://assets.orf.at/mims/2023/46/86/crops/w=590,h=393,q=80,r=3/2011186_master_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=0d5972bc02d05b3dace7100e4077d9f8a573ebb5 3x\" width=\"590\" height=\"393\">\n\n\n         <source media=\"(max-width: 1019px)\" srcset=\"https://assets.orf.at/mims/2023/46/86/crops/w=1020,h=580,q=70,r=1/2011186_master_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=db193fe086e37b6a37b81436f75e0c3992a6a0f6 1x, https://assets.orf.at/mims/2023/46/86/crops/w=1020,h=580,q=60,r=2/2011186_master_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=f08ebbb4ca11cdc4a23f1f92249189b5d89d95a9 2x, https://assets.orf.at/mims/2023/46/86/crops/w=1020,h=580,q=80,r=3/2011186_master_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=4fc49678b8a8bf582c32bb74443b773ab6427493 3x\" width=\"1020\" height=\"580\">\n\n\n         <source media=\"(min-width: 1020px)\" srcset=\"https://assets.orf.at/mims/2023/46/86/crops/w=347,q=90,r=1/2011198_2q_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=863b594a25dc62d86fddff1dc7af8529b825d151 1x, https://assets.orf.at/mims/2023/46/86/crops/w=347,q=80,r=2/2011198_2q_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=fb1e5fbd96a5ad3a2a3f3c1f485308b6672d2c5e 2x, https://assets.orf.at/mims/2023/46/86/crops/w=347,q=80,r=3/2011198_2q_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=1e01d90e5f983e4d04995229b946d6fc37216286 3x\" width=\"347\" height=\"\">\n\n\n      <img src=\"https://assets.orf.at/mims/2023/46/86/crops/w=347,q=90,r=2/2011198_2q_757986_israel_hamas_gaza_hilfe_uno_warnung_afp.jpg?s=29c2ffc3a1b6875a1e0f4b6d39eab73adfb22fc8\" alt=\"Kinder nehmen in Gaza zwischen Trümmern eine Mahlzeit ein\" title=\"© APA/AFP/Said Khatib\" width=\"347\" height=\"\">\n\n\n\n      \n      \n   </picture>\n</div>\n\n\n         <div class=\"oon-grid-texts-container\">\n            \n\n\n\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-5 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      Hilfslieferungen gestoppt:\n      <br>\n      UNO warnt vor Hungersnot in Gaza\n   </h1>\n</div>\n\n\n         </div>\n         <div class=\"oon-grid-texts-container-mobile\">\n            \n\n\n\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-5 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      \n      \n      Hilfen gestoppt: UNO warnt vor Hungersnot in Gaza\n   </h1>\n</div>\n\n\n         </div>"
+      },
+      {
+        "href": "https://orf.at/stories/3340108/",
+        "inner_text": "Ukraine meldet Erfolge bei Vorstoß über Dnipro",
+        "inner_html": "Ukraine meldet Erfolge bei Vorstoß über Dnipro"
+      },
+      {
+        "href": "https://orf.at/stories/3340112/",
+        "inner_text": "Uffizien-Direktor Eike Schmidt wird Italiener",
+        "inner_html": "Uffizien-Direktor Eike Schmidt wird Italiener"
+      },
+      {
+        "href": "https://orf.at/stories/3340115/",
+        "inner_text": "Russland: Kostenlose Getreidelieferung für afrikanische Länder",
+        "inner_html": "Russland: Kostenlose Getreidelieferung für afrikanische Länder"
+      },
+      {
+        "href": "https://orf.at/stories/3340117/",
+        "inner_text": "Analoge Fotografie beim Wiener Rotlicht Festival",
+        "inner_html": "Analoge Fotografie beim Wiener Rotlicht Festival"
+      },
+      {
+        "href": "https://orf.at/stories/3340119/",
+        "inner_text": "EM-Qualifikation: Italien muss wieder einmal zittern",
+        "inner_html": "EM-Qualifikation: Italien muss wieder einmal zittern"
+      },
+      {
+        "href": "https://orf.at/stories/3340121/",
+        "inner_text": "KV: OeNB-Chef hofft auf Abschluss unter zehn Prozent",
+        "inner_html": "KV: OeNB-Chef hofft auf Abschluss unter zehn Prozent"
+      },
+      {
+        "href": "https://orf.at/stories/3340123/",
+        "inner_text": "Frau Drogen verabreicht? Französischer Senator in Gewahrsam",
+        "inner_html": "Frau Drogen verabreicht? Französischer Senator in Gewahrsam"
+      },
+      {
+        "href": "https://orf.at/stories/3340124/",
+        "inner_text": "Burgenland: Empörung über Tschürtz-Rede im Landtag",
+        "inner_html": "Burgenland: Empörung über Tschürtz-Rede im Landtag"
+      },
+      {
+        "href": "https://orf.at/stories/3340125/",
+        "inner_text": "„Hohe Alarmstufe“:\nBologna zittert um seinen schiefen Turm",
+        "inner_html": "<div class=\"oon-grid-image\">\n   <picture>\n         <source media=\"(max-width: 589px)\" srcset=\"https://assets.orf.at/mims/2023/46/89/crops/w=590,h=295,q=70,r=1/2011438_master_758089_bologna_turm_einsturzgefahr_gy.jpg?s=6d4255c383f17ecdbc82e1b4094cfc47c214c8a8 1x, https://assets.orf.at/mims/2023/46/89/crops/w=590,h=295,q=60,r=2/2011438_master_758089_bologna_turm_einsturzgefahr_gy.jpg?s=49709e0aec70f44013058da66c77b7b00ec246ae 2x, https://assets.orf.at/mims/2023/46/89/crops/w=590,h=295,q=80,r=3/2011438_master_758089_bologna_turm_einsturzgefahr_gy.jpg?s=c5dccf443d590fae6e908383d3d65e94f3d4331d 3x\" width=\"590\" height=\"295\">\n\n\n         <source media=\"(max-width: 1019px)\" srcset=\"https://assets.orf.at/mims/2023/46/89/crops/w=500,h=280,q=70,r=1/2011438_master_758089_bologna_turm_einsturzgefahr_gy.jpg?s=d36cb706b7ebe33f19e0f02ba19abd4a5cb81a6c 1x, https://assets.orf.at/mims/2023/46/89/crops/w=500,h=280,q=60,r=2/2011438_master_758089_bologna_turm_einsturzgefahr_gy.jpg?s=f24d1f5719fd79935fdd88dbfbe375fd31092295 2x, https://assets.orf.at/mims/2023/46/89/crops/w=500,h=280,q=80,r=3/2011438_master_758089_bologna_turm_einsturzgefahr_gy.jpg?s=90b6d21890ede4053b397a1ab0aec489dfba7aee 3x\" width=\"500\" height=\"280\">\n\n\n         <source media=\"(min-width: 1020px)\" srcset=\"https://assets.orf.at/mims/2023/46/89/crops/w=171,q=90,r=1/2011505_2h_758089_bologna_turm_einsturzgefahr_gy.jpg?s=bd9b903cbed408d981c4612dc055e783cd572c69 1x, https://assets.orf.at/mims/2023/46/89/crops/w=171,q=80,r=2/2011505_2h_758089_bologna_turm_einsturzgefahr_gy.jpg?s=c3e0043d83f557d551bfd6d3f39237d1c74c6160 2x, https://assets.orf.at/mims/2023/46/89/crops/w=171,q=80,r=3/2011505_2h_758089_bologna_turm_einsturzgefahr_gy.jpg?s=01a1b0e16d5f544117dde0a3c37fcf2125144768 3x\" width=\"171\" height=\"\">\n\n\n      <img src=\"https://assets.orf.at/mims/2023/46/89/crops/w=171,q=90,r=2/2011505_2h_758089_bologna_turm_einsturzgefahr_gy.jpg?s=5fdf8108c444b750917d12510fc95b038a13e457\" alt=\"Asinelli- und Garisenda-Turm in Bologna (Italien)\" title=\"© Getty Images/Imag3s\" width=\"171\" height=\"\">\n\n\n\n      \n      \n   </picture>\n</div>\n\n\n         <div class=\"oon-grid-texts-container\">\n            \n\n\n<div class=\"oon-grid-texts-cue oon-grid-texts-shadow-10 oon-grid-texts-dimout-3 oon-grid-texts-letter-spacing-10\">\n   <h1> „Hohe Alarmstufe“: </h1>\n</div>\n\n\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-7 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      \n      \n      Bologna zittert um seinen schiefen Turm\n   </h1>\n</div>\n\n\n         </div>\n         <div class=\"oon-grid-texts-container-mobile\">\n            \n\n\n\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-7 oon-grid-texts-letter-spacing-8\">\n   <h1>\n      \n      \n      ‚Hohe Alarmstufe‘: Bologna zittert um seinen schiefen Turm\n   </h1>\n</div>\n\n\n         </div>"
+      },
+      {
+        "href": "https://orf.at/stories/3340126/",
+        "inner_text": "Schweres Beben auf den Philippinen: Zwei Tote",
+        "inner_html": "Schweres Beben auf den Philippinen: Zwei Tote"
+      },
+      {
+        "href": "https://orf.at/stories/3340129/",
+        "inner_text": "Bericht: EU-Kommission plant Boykott für russische Diamanten",
+        "inner_html": "Bericht: EU-Kommission plant Boykott für russische Diamanten"
+      },
+      {
+        "href": "https://orf.at/stories/3340130/",
+        "inner_text": "Österreichweite Fahndung nach flüchtigen Häftlingen",
+        "inner_html": "Österreichweite Fahndung nach flüchtigen Häftlingen"
+      },
+      {
+        "href": "https://orf.at/stories/3340131/",
+        "inner_text": "Causa Jost: SPÖ fordert sofortige Abberufung",
+        "inner_html": "Causa Jost: SPÖ fordert sofortige Abberufung"
+      },
+      {
+        "href": "https://orf.at/stories/3340132/",
+        "inner_text": "Budapest startet Feierlichkeiten zum 150. Geburtstag",
+        "inner_html": "Budapest startet Feierlichkeiten zum 150. Geburtstag"
+      },
+      {
+        "href": "https://orf.at/stories/3340133/",
+        "inner_text": "Erfundener Sturz in die Raab: Polizei prüft Regressforderung",
+        "inner_html": "Erfundener Sturz in die Raab: Polizei prüft Regressforderung"
+      },
+      {
+        "href": "https://orf.at/stories/3340134/",
+        "inner_text": "Hundebiss bei Staatsbesuch: Van der Bellen reagiert gelassen",
+        "inner_html": "Hundebiss bei Staatsbesuch: Van der Bellen reagiert gelassen"
+      },
+      {
+        "href": "https://orf.at/stories/3340136/",
+        "inner_text": "Babler-Kritik an Gusenbauers Funktion bei Signa",
+        "inner_html": "Babler-Kritik an Gusenbauers Funktion bei Signa"
+      },
+      {
+        "href": "https://orf.at/stories/3340137/",
+        "inner_text": "Vermisste Italiener: Auto in Kärnten gesehen",
+        "inner_html": "Vermisste Italiener: Auto in Kärnten gesehen"
+      },
+      {
+        "href": "https://orf.at/stories/3340138/",
+        "inner_text": "Neues Frauengesundheitszentrum in Wien-Favoriten",
+        "inner_html": "Neues Frauengesundheitszentrum in Wien-Favoriten"
+      },
+      {
+        "href": "https://orf.at/stories/3340139/",
+        "inner_text": "Alaba stolz auf „gewachsenes“ ÖFB-Team",
+        "inner_html": "Alaba stolz auf „gewachsenes“ ÖFB-Team"
+      },
+      {
+        "href": "https://orf.at/stories/3340140/",
+        "inner_text": "Russische Regierung will LGBTQ-Bewegung verbieten",
+        "inner_html": "Russische Regierung will LGBTQ-Bewegung verbieten"
+      },
+      {
+        "href": "https://orf.at/stories/3340141/",
+        "inner_text": "Punkteabzug in Rekordhöhe für Fußballclub Everton",
+        "inner_html": "Punkteabzug in Rekordhöhe für Fußballclub Everton"
+      },
+      {
+        "href": "https://orf.at/stories/3340142/",
+        "inner_text": "Deutschland-Besuch: Erdogan von Steinmeier empfangen",
+        "inner_html": "Deutschland-Besuch: Erdogan von Steinmeier empfangen"
+      },
+      {
+        "href": "https://orf.at/stories/3340143/",
+        "inner_text": "Wien schnürt Gewaltschutzpaket für Schulen",
+        "inner_html": "Wien schnürt Gewaltschutzpaket für Schulen"
+      },
+      {
+        "href": "https://orf.at/stories/3340144/",
+        "inner_text": "Kiew: Über 3.500 Kriegsgefangene in Russland",
+        "inner_html": "Kiew: Über 3.500 Kriegsgefangene in Russland"
+      },
+      {
+        "href": "https://orf.at/stories/3340150/",
+        "inner_text": "ICE „streifte“ Regionalzug: Mehrere Verletzte in Bayern",
+        "inner_html": "ICE „streifte“ Regionalzug: Mehrere Verletzte in Bayern"
+      },
+      {
+        "href": "https://orf.at/stories/3340151/",
+        "inner_text": "Chaos bei documenta: Verschiebung nicht ausgeschlossen",
+        "inner_html": "Chaos bei documenta: Verschiebung nicht ausgeschlossen"
+      },
+      {
+        "href": "https://orf.at/stories/3340152/",
+        "inner_text": "Ölaustritt in den Traunsee",
+        "inner_html": "Ölaustritt in den Traunsee"
+      },
+      {
+        "href": "https://orf.at/stories/3340153/",
+        "inner_text": "Alcaraz löst letztes Halbfinal-Ticket für ATP-Finals",
+        "inner_html": "Alcaraz löst letztes Halbfinal-Ticket für ATP-Finals"
+      },
+      {
+        "href": "https://orf.at/stories/3340154/",
+        "inner_text": "Blinken fordert von Israel Maßnahmen gegen Siedlergewalt",
+        "inner_html": "Blinken fordert von Israel Maßnahmen gegen Siedlergewalt"
+      },
+      {
+        "href": "https://orf.at/stories/darstellung",
+        "inner_text": "Bildschirmdarstellung festlegen",
+        "inner_html": "Bildschirmdarstellung festlegen"
+      },
+      {
+        "href": "https://orf.at/stories/datenschutz",
+        "inner_text": "Datenschutz",
+        "inner_html": "Datenschutz"
+      },
+      {
+        "href": "https://orf.at/stories/einstellungen",
+        "inner_text": "hier",
+        "inner_html": "hier"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum-nachrichtenagenturen/",
+        "inner_text": "Agenturen",
+        "inner_html": "Agenturen"
+      },
+      {
+        "href": "https://orf.at/stories/impressum/",
+        "inner_text": "Impressum/Offenlegung",
+        "inner_html": "Impressum<span class=\"display-only-desktop\">/Offenlegung</span>"
+      },
+      {
+        "href": "https://orf.at/uebersicht",
+        "inner_text": "ORF.at im Überblick",
+        "inner_html": "ORF.at im Überblick"
+      },
+      {
+        "href": "https://orf.at/uebersicht/",
+        "inner_text": "Alle ORF Angebote",
+        "inner_html": "Alle ORF Angebote"
+      },
+      {
+        "href": "https://orf.at/uebersicht/",
+        "inner_text": "Alle ORF-Angebote",
+        "inner_html": "Alle ORF-Angebote"
+      },
+      {
+        "href": "https://publikumsrat.orf.at/",
+        "inner_text": "Publikumsrat",
+        "inner_html": "Publikumsrat"
+      },
+      {
+        "href": "https://radio.orf.at/",
+        "inner_text": "Radio",
+        "inner_html": "Radio"
+      },
+      {
+        "href": "https://salzburg.orf.at/stories/3232836/",
+        "inner_text": "salzburg.ORF.at",
+        "inner_html": "salzburg.ORF.at"
+      },
+      {
+        "href": "https://salzburg.orf.at/stories/3232858/",
+        "inner_text": "salzburg.ORF.at",
+        "inner_html": "salzburg.ORF.at"
+      },
+      {
+        "href": "https://science.orf.at/stories/3222165/",
+        "inner_text": "science.ORF.at",
+        "inner_html": "science.ORF.at"
+      },
+      {
+        "href": "https://science.orf.at/stories/3222173/",
+        "inner_text": "science.ORF.at",
+        "inner_html": "science.ORF.at"
+      },
+      {
+        "href": "https://sound.orf.at/",
+        "inner_text": "Sound",
+        "inner_html": "Sound"
+      },
+      {
+        "href": "https://sound.orf.at/",
+        "inner_text": "Sound",
+        "inner_html": "Sound"
+      },
+      {
+        "href": "https://sound.orf.at/",
+        "inner_text": "Sound",
+        "inner_html": "Sound"
+      },
+      {
+        "href": "https://sport.orf.at/",
+        "inner_text": "Sport",
+        "inner_html": "Sport"
+      },
+      {
+        "href": "https://sport.orf.at/",
+        "inner_text": "Sport",
+        "inner_html": "Sport"
+      },
+      {
+        "href": "https://sport.orf.at/",
+        "inner_text": "SPORT\nFerrari nach Chaos\nin Las Vegas voran",
+        "inner_html": "<div class=\"oon-grid-image\">\n   <picture>\n         <source media=\"(max-width: 589px)\" srcset=\"https://assets.orf.at/mims/2023/46/77/crops/w=295,h=171,q=70,r=1/2011420_master_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=16a24f9b1ff47d8928f9f8d5e619118ff92bfa62 1x, https://assets.orf.at/mims/2023/46/77/crops/w=295,h=171,q=60,r=2/2011420_master_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=4275e3d8e972422ceb74770d5c492e23ef8d1ea1 2x, https://assets.orf.at/mims/2023/46/77/crops/w=295,h=171,q=80,r=3/2011420_master_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=74c6eeeed81bc9d76001d7354966aecd2adbda04 3x\" width=\"295\" height=\"171\">\n\n\n         <source media=\"(max-width: 1019px)\" srcset=\"https://assets.orf.at/mims/2023/46/77/crops/w=328,h=185,q=70,r=1/2011420_master_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=7ddc03e49375e394c1b75d4abd37fe42a1b1124b 1x, https://assets.orf.at/mims/2023/46/77/crops/w=328,h=185,q=60,r=2/2011420_master_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=967ac985b0981cf8e020892cfc4c448cbab7485e 2x, https://assets.orf.at/mims/2023/46/77/crops/w=328,h=185,q=80,r=3/2011420_master_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=654b184374581dfd9b00d5746872f24ea95a989c 3x\" width=\"328\" height=\"185\">\n\n\n         <source media=\"(min-width: 1020px)\" srcset=\"https://assets.orf.at/mims/2023/46/77/crops/w=171,q=90,r=1/2011421_1k_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=928a4053f92326353560ddc8a05bfc967f00bf0a 1x, https://assets.orf.at/mims/2023/46/77/crops/w=171,q=80,r=2/2011421_1k_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=783919eb08c025e07205ef67fd1a29d3e4d9f653 2x, https://assets.orf.at/mims/2023/46/77/crops/w=171,q=80,r=3/2011421_1k_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=88ff00aeff9e4d4878cafd6dc59c582d8ca371b3 3x\" width=\"171\" height=\"\">\n\n\n      <img src=\"https://assets.orf.at/mims/2023/46/77/crops/w=171,q=90,r=2/2011421_1k_758077_formel_1_las_vegas_training_ii_bericht_afp.jpg?s=a3aff81f45b5a7211b81855b48609fbdbc2dc3af\" alt=\"Charles Leclerc\" title=\"© APA/AFP/Getty Images/Mark Thompson\" width=\"171\" height=\"\">\n\n\n\n      \n      \n   </picture>\n</div>\n\n\n         <div class=\"oon-grid-texts-container\">\n            \n\n\n\n<div class=\"oon-grid-texts-flag oon-grid-texts-flag-position-right\">\n   <span> Sport </span>\n</div>\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-5 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      Ferrari nach Chaos\n      <br>\n      in Las Vegas voran\n   </h1>\n</div>\n\n\n         </div>\n         <div class=\"oon-grid-texts-container-mobile\">\n            \n\n\n\n<div class=\"oon-grid-texts-flag oon-grid-texts-flag-position-right\">\n   <span> Sport </span>\n</div>\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-5 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      \n      \n      Ferrari nach Chaos in Las Vegas voran\n   </h1>\n</div>\n\n\n         </div>"
+      },
+      {
+        "href": "https://sport.orf.at/",
+        "inner_text": "Sport",
+        "inner_html": "Sport"
+      },
+      {
+        "href": "https://sport.orf.at/stories/3118889/",
+        "inner_text": "Lesen Sie mehr …",
+        "inner_html": "Lesen Sie mehr …"
+      },
+      {
+        "href": "https://sport.orf.at/stories/3118956/",
+        "inner_text": "Lesen Sie mehr …",
+        "inner_html": "Lesen Sie mehr …"
+      },
+      {
+        "href": "https://sport.orf.at/stories/3118976/",
+        "inner_text": "Lesen Sie mehr …",
+        "inner_html": "Lesen Sie mehr …"
+      },
+      {
+        "href": "https://sport.orf.at/stories/3118979/",
+        "inner_text": "Lesen Sie mehr …",
+        "inner_html": "Lesen Sie mehr …"
+      },
+      {
+        "href": "https://steiermark.orf.at/stories/3232670/",
+        "inner_text": "steiermark.ORF.at",
+        "inner_html": "steiermark.ORF.at"
+      },
+      {
+        "href": "https://steiermark.orf.at/stories/3232900/",
+        "inner_text": "ÖSTERREICH\nKillersuche im Darknet:\nZwölf Jahre Haft",
+        "inner_html": "<div class=\"oon-grid-image\">\n   <picture>\n         <source media=\"(max-width: 589px)\" srcset=\"https://assets.orf.at/mims/2023/46/89/crops/w=295,h=171,q=70,r=1/2011888_master_758289_killer_angeheuert_urteil_a.jpg?s=40335b560a8dc58a6bdd856e3cd4fe4c52421927 1x, https://assets.orf.at/mims/2023/46/89/crops/w=295,h=171,q=60,r=2/2011888_master_758289_killer_angeheuert_urteil_a.jpg?s=799f7acd7c7cdc65f309a9976a80e4d51bdec50f 2x, https://assets.orf.at/mims/2023/46/89/crops/w=295,h=171,q=80,r=3/2011888_master_758289_killer_angeheuert_urteil_a.jpg?s=747505957ca9b0f8eb1286dfcc3bbc4aa904ea52 3x\" width=\"295\" height=\"171\">\n\n\n         <source media=\"(max-width: 1019px)\" srcset=\"https://assets.orf.at/mims/2023/46/89/crops/w=500,h=280,q=70,r=1/2011888_master_758289_killer_angeheuert_urteil_a.jpg?s=c0e1f109e7178d93ecff0e857735286069e49aae 1x, https://assets.orf.at/mims/2023/46/89/crops/w=500,h=280,q=60,r=2/2011888_master_758289_killer_angeheuert_urteil_a.jpg?s=ea9fa13e81c35ab8ea6f1c804cf35504909c14bc 2x, https://assets.orf.at/mims/2023/46/89/crops/w=500,h=280,q=80,r=3/2011888_master_758289_killer_angeheuert_urteil_a.jpg?s=5ce0d9cebc1d4b0c71e069e0e26ac09eba5b7f99 3x\" width=\"500\" height=\"280\">\n\n\n         <source media=\"(min-width: 1020px)\" srcset=\"https://assets.orf.at/mims/2023/46/89/crops/w=171,q=90,r=1/2011889_1k_758289_killer_angeheuert_urteil_a.jpg?s=610987f5a8b0f03d829c6e521ad754ba545e630e 1x, https://assets.orf.at/mims/2023/46/89/crops/w=171,q=80,r=2/2011889_1k_758289_killer_angeheuert_urteil_a.jpg?s=0dddaabb2d9672a6e09e7deecff0412a5b47ef88 2x, https://assets.orf.at/mims/2023/46/89/crops/w=171,q=80,r=3/2011889_1k_758289_killer_angeheuert_urteil_a.jpg?s=f67428e605ae5aaaffef2a117e4f1ae19031fd62 3x\" width=\"171\" height=\"\">\n\n\n      <img src=\"https://assets.orf.at/mims/2023/46/89/crops/w=171,q=90,r=2/2011889_1k_758289_killer_angeheuert_urteil_a.jpg?s=3242e9738c79939a5008ebfef1e00797db5b551a\" alt=\"Der Angeklagte während des Prozesses im Straflandesgericht Graz\" title=\"© APA/Karin Zehetleitner\" width=\"171\" height=\"\">\n\n\n\n      \n      \n   </picture>\n</div>\n\n\n         <div class=\"oon-grid-texts-container\">\n            \n\n\n\n<div class=\"oon-grid-texts-flag oon-grid-texts-flag-position-left\">\n   <span> Österreich </span>\n</div>\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-8 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      Killersuche im Darknet:\n      <br>\n      Zwölf Jahre Haft\n   </h1>\n</div>\n\n\n         </div>\n         <div class=\"oon-grid-texts-container-mobile\">\n            \n\n\n\n<div class=\"oon-grid-texts-flag oon-grid-texts-flag-position-left\">\n   <span> Österreich </span>\n</div>\n\n\n<div class=\"oon-grid-texts-headline oon-grid-texts-shadow-10 oon-grid-texts-dimout-9 oon-grid-texts-letter-spacing-10\">\n   <h1>\n      \n      \n      Killer im Darknet gesucht: Zwölf Jahre Haft\n   </h1>\n</div>\n\n\n         </div>"
+      },
+      {
+        "href": "https://t.co/Rn8HM7vpod",
+        "inner_text": "pic.twitter.com/Rn8HM7vpod",
+        "inner_html": "pic.twitter.com/Rn8HM7vpod"
+      },
+      {
+        "href": "https://topos.orf.at/",
+        "inner_text": "Topos",
+        "inner_html": "Topos"
+      },
+      {
+        "href": "https://topos.orf.at/",
+        "inner_text": "Topos",
+        "inner_html": "Topos"
+      },
+      {
+        "href": "https://topos.orf.at/",
+        "inner_text": "Topos",
+        "inner_html": "Topos"
+      },
+      {
+        "href": "https://tv.orf.at/",
+        "inner_text": "Fernsehen",
+        "inner_html": "Fernsehen"
+      },
+      {
+        "href": "https://tv.orf.at/",
+        "inner_text": "Fernsehen",
+        "inner_html": "Fernsehen"
+      },
+      {
+        "href": "https://tv.orf.at/",
+        "inner_text": "Fernsehen",
+        "inner_html": "Fernsehen"
+      },
+      {
+        "href": "https://tvthek.orf.at/",
+        "inner_text": "TVthek",
+        "inner_html": "TVthek"
+      },
+      {
+        "href": "https://tvthek.orf.at/",
+        "inner_text": "TVthek",
+        "inner_html": "TVthek"
+      },
+      {
+        "href": "https://tvthek.orf.at/",
+        "inner_text": "TVthek",
+        "inner_html": "TVthek"
+      },
+      {
+        "href": "https://twitter.com/sandumaiamd?ref_src=twsrc%5Etfw",
+        "inner_text": "@sandumaiamd",
+        "inner_html": "@sandumaiamd"
+      },
+      {
+        "href": "https://twitter.com/vanderbellen/status/1725496979608801501?ref_src=twsrc%5Etfw",
+        "inner_text": "17. November 2023",
+        "inner_html": "17. November 2023"
+      },
+      {
+        "href": "https://wetter.orf.at/",
+        "inner_text": "Wetter",
+        "inner_html": "Wetter"
+      },
+      {
+        "href": "https://wetter.orf.at/",
+        "inner_text": "Wetter",
+        "inner_html": "Wetter"
+      },
+      {
+        "href": "https://wetter.orf.at/m/",
+        "inner_text": "Wetter",
+        "inner_html": "Wetter"
+      },
+      {
+        "href": "https://wetter.orf.at/vorarlberg/prognose",
+        "inner_text": "Wetter in\nBregenz\nRegen\n4,4 °C",
+        "inner_html": "<span class=\"sr-only\">Wetter in </span>\n         <span class=\"capital\">Bregenz</span>\n         <span class=\"description sr-only\">Regen</span>\n         <img class=\"icon\" aria-hidden=\"true\" src=\"https://wetter.orf.at/static/wetter/3_3/images/icons/day/svg/300000.svg\" width=\"37\" height=\"37\" alt=\"Regen\">\n         <span class=\"temperature\">4,4 °C</span>"
+      },
+      {
+        "href": "https://wien.orf.at/stories/3232799/",
+        "inner_text": "wien.ORF.at",
+        "inner_html": "wien.ORF.at"
+      },
+      {
+        "href": "https://wien.orf.at/stories/3232873/",
+        "inner_text": "wien.ORF.at",
+        "inner_html": "wien.ORF.at"
+      },
+      {
+        "href": "https://wien.orf.at/stories/3232932/",
+        "inner_text": "wien.ORF.at",
+        "inner_html": "wien.ORF.at"
+      },
+      {
+        "href": "https://zukunft.orf.at/show_content2.php?s2id=183",
+        "inner_text": "Bekanntgaben laut ORF-G",
+        "inner_html": "Bekanntgaben laut ORF-G"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/sandumaiamd?ref_src=twsrc%5Etfw",
+        "inner_text": "@sandumaiamd",
+        "inner_html": "@sandumaiamd"
+      },
+      {
+        "href": "https://twitter.com/vanderbellen/status/1725496979608801501?ref_src=twsrc%5Etfw",
+        "inner_text": "17. November 2023",
+        "inner_html": "17. November 2023"
+      }
+    ],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/119.0.6045.105",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.96 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "6.1.57-060157-generic"
+    },
+    "extra_headers": {
+      "dnt": 1
+    },
+    "preset_cookies": {}
+  },
+  "browsing_history": [
+    "https://www.orf.at"
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "www.orf.at"
+      ],
+      "thirdParty": [
+        "ad13.adfarm1.adition.com",
+        "api-tvthek.orf.at",
+        "api.adnz.co",
+        "assets.orf.at",
+        "at.iocnt.net",
+        "cdn.adnz.co",
+        "data-d6e13c60e8.orf.at",
+        "imagesrv.adition.com",
+        "orf.at",
+        "pipe.orf.at",
+        "script-at.iocnt.net",
+        "sdk.privacy-center.org",
+        "stm.orf.at",
+        "wetter.orf.at"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "api.adnz.co",
+        "at.iocnt.net",
+        "cdn.adnz.co",
+        "data-d6e13c60e8.orf.at",
+        "script-at.iocnt.net"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "www.orf.at"
+      ],
+      "thirdParty": [
+        "adfarm1.adition.com",
+        "iocnt.net",
+        "orf.at"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [
+        "www.orf.at"
+      ],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "www.orf.at"
+      ],
+      "thirdParty": [
+        "burgenland.orf.at",
+        "debatte.orf.at",
+        "der.orf.at",
+        "kaernten.orf.at",
+        "lichtinsdunkel.orf.at",
+        "noe.orf.at",
+        "oesterreich.orf.at",
+        "ooe.orf.at",
+        "orf.at",
+        "publikumsrat.orf.at",
+        "radio.orf.at",
+        "salzburg.orf.at",
+        "science.orf.at",
+        "sound.orf.at",
+        "sport.orf.at",
+        "steiermark.orf.at",
+        "t.co",
+        "topos.orf.at",
+        "tv.orf.at",
+        "tvthek.orf.at",
+        "twitter.com",
+        "wetter.orf.at",
+        "wien.orf.at",
+        "zukunft.orf.at"
+      ]
+    }
+  },
+  "websockets": {},
+  "start_time": "2023-11-17T15:42:02.324Z",
+  "end_time": "2023-11-17T15:42:11.313Z",
+  "websocketLog": {}
+}

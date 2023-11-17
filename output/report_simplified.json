@@ -1,0 +1,83 @@
+{
+  "cookies": [
+    {
+      "name": "UserID1",
+      "domain": "adfarm1.adition.com",
+      "path": "/",
+      "expires": 90
+    },
+    {
+      "name": "i00",
+      "domain": "iocnt.net",
+      "path": "/",
+      "expires": 344.67
+    },
+    {
+      "name": "didomi_token",
+      "domain": "orf.at",
+      "path": "/",
+      "expires": 366
+    },
+    {
+      "name": "ioam2018",
+      "domain": "orf.at",
+      "path": "/",
+      "expires": 308
+    },
+    {
+      "name": "_autuserid2",
+      "domain": "www.orf.at",
+      "path": "/",
+      "expires": 90
+    }
+  ],
+  "localStorage": [
+    {
+      "key": "didomi_token"
+    },
+    {
+      "key": "enableWebstats-2023-09-01"
+    }
+  ],
+  "beacons": [
+    {
+      "url": "https://api.adnz.co/api/ws-contextual/page-keywords"
+    },
+    {
+      "url": "https://api.adnz.co/api/ws-events-sink/batch"
+    },
+    {
+      "url": "https://at.iocnt.net/tx.io"
+    },
+    {
+      "url": "https://cdn.adnz.co/convey2-scripts/contextual.js"
+    },
+    {
+      "url": "https://data-d6e13c60e8.orf.at/iomb/latest/sensor/manager/base/es6/bundle.js"
+    },
+    {
+      "url": "https://data-d6e13c60e8.orf.at/iomm/latest/manager/base/es6/bundle.js"
+    },
+    {
+      "url": "https://script-at.iocnt.net/iam.js"
+    },
+    {
+      "url": "https://sdk.privacy-center.org/ec37cbb0-e91d-42b8-abef-51639d3499c3/loader.js"
+    },
+    {
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/sdk.865237b129f44954933b52435f414f44ebe0b583.js"
+    },
+    {
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/src_sdk_regulations_gdpr_tcf_v2_2_purposes_index_js.865237b129f44954933b52435f414f44ebe0b583.js"
+    },
+    {
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/src_sdk_regulations_gdpr_tcf_v2_2_vendors_iab-core_js.865237b129f44954933b52435f414f44ebe0b583.js"
+    },
+    {
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/tcf-service-2-2.865237b129f44954933b52435f414f44ebe0b583.js"
+    },
+    {
+      "url": "https://sdk.privacy-center.org/sdk/865237b129f44954933b52435f414f44ebe0b583/modern/ui-gdpr-tcf-2-2-de-web2-2.865237b129f44954933b52435f414f44ebe0b583.js"
+    }
+  ]
+}
