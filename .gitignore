@@ -61,7 +61,7 @@ typings/
 .next
 
 #Output Directory
-output/
+output
 
 reports/
 report.json
