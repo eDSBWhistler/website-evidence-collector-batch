@@ -60,6 +60,9 @@ typings/
 # next.js build output
 .next
 
+#Output Directory
+output/
+
 reports/
 report.json
 report.html
