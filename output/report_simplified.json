@@ -10,7 +10,7 @@
       "name": "i00",
       "domain": "iocnt.net",
       "path": "/",
-      "expires": 344.67
+      "expires": 343.63
     },
     {
       "name": "didomi_token",
@@ -22,7 +22,7 @@
       "name": "ioam2018",
       "domain": "orf.at",
       "path": "/",
-      "expires": 308
+      "expires": 360
     },
     {
       "name": "_autuserid2",
